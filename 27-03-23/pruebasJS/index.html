@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <form>
+            <h3>Iniciar Sesión</h3>
+            <input class="texto" type="text" name="email" placeholder="E-Mail">
+            <input class="texto" type="text" name="contraseña" placeholder="Contraseña">
+            <input type="button" value="Iniciar Sesión" onclick="validarIS()">
+            <input type="button" value="¿Aún no estás registrado?" onclick="mostrarIS()">
+
+        </form>
+
+        <form>
+            <h3>Registrar</h3>
+            <input class="texto" type="text" name="email" placeholder="E-Mail">
+            <input class="texto" type="text" name="contraseña" placeholder="Contraseña">
+            <input class="texto" type="text" name="compContraseña" placeholder="Comprobar Contraseña">
+            <input type="button" value="Registrarse" onclick="validarR()">
+            <input type="button" value="¿Ya tienes cuenta?" onclick="mostrarR()">
+        </form>
+    </main>
+</body>
+<script src="app.js"></script>
+</html>
