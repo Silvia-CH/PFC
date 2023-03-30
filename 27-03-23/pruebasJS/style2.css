@@ -1,0 +1,313 @@
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    background-image: linear-gradient(
+        0deg,
+        rgba(0, 0, 0, 0.3),
+        rgba(0, 0, 0, 0.3)), url("img/fondo.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+}
+.navegador{
+    list-style: none;
+    display: inline-block;
+    padding: 5px;
+    margin-left: 3px;
+    margin-right: 3px;
+    background-color: antiquewhite;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    flex-direction: row;
+    background-color: rgb(97, 72, 42);
+    height: 13vh;
+    z-index: 100;
+}
+ 
+ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 0;
+    width: 20vw;
+}
+li {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    padding: 5px;
+    color: rgb(232, 227, 194);
+    text-align: center;
+    font-size: large;
+}
+ 
+a{
+    align-self: center;
+    text-decoration: none;
+    color: azure;
+}
+ 
+i.fa-envelope-open-text {
+    margin-right: 5%;
+}
+ 
+.buscador input {
+    width: 35vw;
+    height: 6vh;
+    border-radius: 1cm;
+}
+ 
+li.buscador i {
+    margin-left: 1%;
+    padding: 1vh;
+    border: 1px solid black;
+    border-radius: 25%;
+    color: rgb(100, 100, 100);
+    background-color: rgb(232, 227, 194);
+}
+li.usuario {
+    width: 15vw;
+}
+ 
+.usuario i {
+    margin-right: 2%;
+}
+.usuario:hover {
+    color: rgb(231, 206, 121);
+}
+ 
+li:hover {
+    color: rgb(231, 206, 121);
+}
+ 
+.buscador i:hover {
+    background-color: rgb(231, 206, 121);
+    color: rgb(101, 90, 74);
+}
+#icono {
+    height: 11vh;
+    margin-right: 1vw;
+}
+#titulo {
+    display:flex;
+    justify-content: center;
+    text-align: center;
+}
+
+#generos {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-around;
+    text-align: center;
+    background-image: url("img/libro.jpg"); 
+}
+.fantasia {
+    margin: 40px 40px;
+    padding: 40px 40px; 
+    color:black;
+    border: 3px solid rgb(64, 9, 9); 
+    background-image: url("img/generos/fantasia.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;  
+}
+.romantica {
+    color: white;
+    margin: 40px 40px;
+    padding: 40px 40px;
+    border: 3px solid rgb(64, 9, 9); 
+    background-image: linear-gradient(
+        0deg,
+        rgba(0, 0, 0, 0.3),
+        rgba(0, 0, 0, 0.3)), url("img/generos/romantica.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center; 
+}
+.historica {
+    margin: 40px 40px;
+    padding: 40px 40px;
+    color: white;
+    border: 3px solid rgb(64, 9, 9); 
+    background-image: url("img/generos/historica.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center; 
+}
+.juvenil {
+    margin: 40px 40px;
+    padding: 40px 40px;
+    color: white;
+    border: 3px solid rgb(64, 9, 9);
+    background-image: url("img/generos/juvenil.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+.ciencia {
+    margin: 40px 40px;
+    padding: 40px 40px;
+    color: white;
+    border: 3px solid rgb(64, 9, 9);
+    background-image: url("img/generos/ciencia.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+.policiaca {
+    margin: 40px 40px;
+    padding: 40px 40px;
+    color: white;
+    border: 3px solid rgb(64, 9, 9);
+    background-image: url("img/generos/policiaca.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+.arte {
+    margin: 40px 40px;
+    padding: 40px 60px;
+    color: white;
+    border: 3px solid rgb(64, 9, 9);
+    background-image: url("img/generos/arte.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+.psicologia {
+    margin: 40px 40px;
+    padding: 40px 40px;
+    color: black;
+    border: 3px solid rgb(64, 9, 9);
+    background-image: url("img/generos/psicologia.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+.comic {
+    margin: 40px 40px;
+    padding: 40px 50px;
+    color: black;
+    border: 3px solid rgb(64, 9, 9);
+    background-image: linear-gradient(
+        0deg,
+        rgba(0, 0, 0, 0.1),
+        rgba(0, 0, 0, 0.1)), url("img/generos/comic.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center
+}
+#generos:hover{
+    color:blue;
+}
+#boton {
+    display: flex;
+    justify-content: center;
+}
+button {
+    padding: 20px 30px;
+    border-radius: 10px;
+    border: 2px solid black;
+    color: rgb(95, 24, 24);
+    background-color: rgb(209, 186, 151);
+    font-size: 1em;
+}
+button:hover {
+    background-color: rgb(55, 54, 54)
+}
+
+footer {
+    margin-top: 2%;
+    background-color: rgb(76, 69, 49);
+    color: antiquewhite;
+}
+
+address {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 2vh;
+}
+
+address div{
+    width: 40vw;
+}
+
+address div :first-child{
+    font-size: large;
+}
+
+footer a{
+    color: antiquewhite;
+}
+
+footer a:hover{
+    color: rgb(183, 130, 51);
+}
+div.redes{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 1vw;
+}
+
+
+/* esconder el check por defecto*/
+#menu, #menu-chek {
+    display: none;
+}
+
+@media only screen and (max-width:700px) {
+
+    /* si no esta chekeado, no se muestra el menu*/
+    #menu-check:not(:checked) ~ nav {
+        display: none;
+    }
+    /* si esta checkeado se muestra, como bloque*/
+    #menu-check:checked ~ nav {
+        display: block;
+    }
+    /* menu hamburguesa */
+    #menu {
+        display: block;
+        color: green;
+        background-color: blue;
+        position: absolute;
+        right: 0.5em;
+        top: 0.5em;
+    }
+
+    #menu:hover {
+        color: white;
+        background: beige;
+    }
+
+    #menu-cerrar {
+        display: none;
+    }
+
+    /*cuando el menu este chekeado dentro del label el menu abrir no aparece*/
+    #menu-check:checked ~ label #menu-abrir {
+        display: none;
+    }
+    /*el menu check cuando este chekeado denro del label, el menu cerrar aparecera en bloque*/
+    #menu-check:checked ~ label #menu-cerrar {
+        display: block;
+    }
+
+    nav {
+        position: absolute;
+        top: 0;
+        right: 0;
+        height: 100%;
+        background-color: grey;
+        padding-top: 0.5em;
+        opacity: 0.8;
+        color: grey;
+    }
+}
