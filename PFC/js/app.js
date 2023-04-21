@@ -51,17 +51,17 @@ function verContraseña(nombreForm) {
 
     if (nombreForm['elements']['contraseña']['type'] == 'password') {
         nombreForm['elements']['contraseña'].setAttribute('type', 'text');
-        ojo1.setAttribute('src', 'img/hidden.png');
+        ojo1.setAttribute('src', '../img/hidden.png');
         if (nombreForm == registrarse) {
             nombreForm['elements']['compContraseña'].setAttribute('type', 'text');
-            ojo2.setAttribute('src', 'img/hidden.png');
+            ojo2.setAttribute('src', '../img/hidden.png');
         }
     } else {
         nombreForm['elements']['contraseña'].setAttribute('type', 'password');
-        ojo1.setAttribute('src', 'img/view.png');
+        ojo1.setAttribute('src', '../img/view.png');
         if (nombreForm == registrarse) {
             nombreForm['elements']['compContraseña'].setAttribute('type', 'password');
-            ojo2.setAttribute('src', 'img/view.png');
+            ojo2.setAttribute('src', '../img/view.png');
         }
     }
 

@@ -10,7 +10,7 @@ body {
     display: flex;
     flex-direction: column;
     margin: 0px;
-    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(img/fondo.jpg);
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../img/fondo.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -118,7 +118,7 @@ main {
     margin-top: 2vh;
     margin-left: 5vw;
     margin-right: 5vw;
-    background-image: url(img/textura.jpg);
+    background-image: url(../img/textura.jpg);
 }
 
 main section {
