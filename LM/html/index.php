@@ -43,6 +43,11 @@ $generosExistentes = ["fantasia", "romantica", "historica", "ciencia", "juvenil"
     </nav>
     <section id="generos">
         <?php
+        /** 
+         * Este for each recorre los datos de la tabla 'genero' y comprueba que 
+         * solo se inserten los géneros especificados en el array $generosExistentes.
+         * Además, evita las mayúsculas y tildes de la base da datos para los datos como nombres de clases de CSS
+        */
         foreach ($generos as $row) {
             $temp = str_replace(array('á', 'é', 'í', 'ó', 'ú'), array('a', 'e', 'i', 'o', 'u'), strtolower($row['nombre']));
             if (in_array($temp, $generosExistentes)) {
