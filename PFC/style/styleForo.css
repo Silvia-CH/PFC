@@ -1,0 +1,217 @@
+html {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    scroll-behavior: smooth;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 400;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../img/fondo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    flex-direction: row;
+    background-color: rgb(97, 72, 42);
+    height: 13vh;
+    z-index: 100;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 0;
+    width: 20vw;
+}
+
+li {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    padding: 5px;
+    width: fit-content;
+    color: rgb(232, 227, 194);
+    text-align: center;
+    font-size: large;
+}
+
+a {
+    align-self: center;
+    text-decoration: none;
+}
+
+#icono {
+    height: 11vh;
+    margin-right: 1vw;
+}
+
+i.fa-envelope-open-text {
+    margin-right: 5%;
+}
+
+.buscador input {
+    width: 35vw;
+    height: 6vh;
+    border-radius: 1cm;
+}
+
+.buscador i {
+    margin-left: 1%;
+    padding: 1vh;
+    border: 1px solid black;
+    border-radius: 25%;
+    color: rgb(100, 100, 100);
+    background-color: rgb(232, 227, 194);
+}
+
+li.usuario {
+    width: 15vw;
+}
+
+.usuario i {
+    margin-right: 2%;
+}
+
+.usuario:hover {
+    color: rgb(231, 206, 121);
+}
+
+li:hover {
+    color: rgb(231, 206, 121);
+}
+
+.buscador i:hover {
+    background-color: rgb(231, 206, 121);
+    color: rgb(101, 90, 74);
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    margin: 3%;
+    font-size: large;
+}
+
+header :first-child {
+    font-size: xx-large;
+    font-weight: 700;
+    margin-bottom: 0px;
+}
+
+main {
+    display: flex;
+    height: 100%;
+    width: 90vw;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    margin-top: 2vh;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    background-image: url(../img/textura.jpg);
+}
+
+main section {
+    flex-basis: 100%;
+    height: 100%;
+    background-color: white;
+    margin: 1.5%;
+    border: 1px solid #707070;
+}
+
+main section div {
+    display: flex;
+    align-items: center;
+    padding: 1vh;
+    border-bottom: 1px solid rgb(182, 182, 182);
+}
+
+div.cabecero {
+    flex-direction: row;
+    background-color: rgb(232, 227, 194);
+}
+
+div.cabecero snap {
+    font-size: large;
+    font-weight: 700;
+}
+
+div.cabecero img {
+    border: 3px solid black;
+    margin-right: 1vw;
+}
+
+div.cuerpo {
+    flex-direction: column;
+    align-items: flex-start;
+    background-color: rgb(255, 254, 223);
+}
+
+div.cuerpo :first-child {
+    align-self: flex-start;
+    font-size: small;
+    color: #707070;
+    margin: 0px;
+}
+
+div.cuerpo :last-child {
+    align-self: flex-start;
+    color: #707070;
+    margin: 0px;
+    font-size: medium;
+}
+
+div.cuerpo a :hover {
+    color: #0070a4;
+}
+
+div.cuerpo .comentario:hover {
+    color: #0070a4;
+}
+
+/* footer */
+footer {
+    margin-top: 2%;
+    background-color: rgb(76, 69, 49);
+    color: antiquewhite;
+}
+
+address {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 2vh;
+}
+
+address div {
+    width: 40vw;
+}
+
+address div :first-child {
+    font-size: large;
+}
+
+footer a {
+    color: antiquewhite;
+}
+
+footer a:hover {
+    color: rgb(183, 130, 51);
+}
+
+div.redes {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 1vw;
+}
