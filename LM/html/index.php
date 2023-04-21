@@ -1,3 +1,10 @@
+<?php
+require_once('../vistas/database.php');
+$database = new Database();
+$generos = $database->getAll('genero');
+$generosExistentes = ["fantasia", "romantica", "historica", "ciencia", "juvenil", "policiaca", "arte", "psicologia", "comic"];
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -6,7 +13,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Página Principal</title>
-    <link rel="stylesheet" href="../style/style.css">
+    <link rel="stylesheet" href="../style/style.css?ver = 1.1">
     <link rel="stylesheet" href="fontawesome/css/all.min.css">
     <link rel="icon" type="image/x-icon" href="../img/BT.ico">
 </head>
@@ -14,7 +21,7 @@
 <body>
     <nav>
         <ul class="nav_izquierdo">
-            <a href="index.html">
+            <a href="index.php">
                 <img id="icono" src="../img/logoV2.jpg">
             </a>
             <a href="contacto.html">
@@ -35,35 +42,14 @@
         </ul>
     </nav>
     <section id="generos">
-        <div class="fantasia">
-            <h3>Fantasia </h3>
-        </div>
-        <div class="romantica">
-            <h3>Romantica</h3>
-        </div>
-        <div class="historica">
-            <h3>Histórica</h3>
-        </div>
-        <div class="ciencia">
-            <h3>Ciencia</h3>
-        </div>
-        <div class="juvenil">
-            <h3>Juvenil</h3>
-        </div>
-    </section>
-    <section id="generos">
-        <div class="policiaca">
-            <h3>Policiaca</h3>
-        </div>
-        <div class="arte">
-            <h3>Arte</h3>
-        </div>
-        <div class="psicologia">
-            <h3>Psicología</h3>
-        </div>
-        <div class="comic">
-            <h3><strong>Cómic</strong></h3>
-        </div>
+        <?php
+        foreach ($generos as $row) {
+            $temp = str_replace(array('á', 'é', 'í', 'ó', 'ú'), array('a', 'e', 'i', 'o', 'u'), strtolower($row['nombre']));
+            if (in_array($temp, $generosExistentes)) {
+                echo "<div class='" . $temp . "'><h3>" . $row['nombre'] . " </h3></div>";
+            }
+        }
+        ?>
     </section>
     <br>
     <section id="boton">
