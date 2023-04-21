@@ -31,11 +31,5 @@
             $sql = "DELETE FROM $table WHERE id = $id";
             self::conectar()->exec($sql);
         }
-
-        public function getSome($column , $tabla){
-            $sql = "SELECT $column FROM $tabla";
-            $resultados = self::conectar()->query($sql);
-            return $resultados;        
-        }
     }
 ?>
