@@ -1,4 +1,3 @@
--- DROP DATABASE pfc_libros;
 CREATE DATABASE IF NOT EXISTS pfc_libros;
 USE pfc_libros;
 
@@ -153,10 +152,11 @@ INSERT INTO rol VALUES (NULL, 'admin');
 INSERT INTO rol VALUES (NULL, 'usuario');
 
 /* TABLA USUARIO*/
-INSERT INTO usuario VALUES (NULL, 'PEPITA22', '1111', 'pepita22@gmail.com', '2');
-INSERT INTO usuario VALUES (NULL, 'LECTOR123', '2222', 'lector2222@gmail.com', '2');
-INSERT INTO usuario VALUES (NULL, 'CAPIPERCY', '3333', 'capipercy@gmail.com', '2');
-INSERT INTO usuario VALUES (NULL, 'TeatroYmás', '4444', 'teatroymas@gmail.com', '2');
+INSERT INTO usuario VALUES (NULL, 'PEPITA22', 'Rr.2kjkh', 'pepita22@gmail.com', '2');
+INSERT INTO usuario VALUES (NULL, 'LECTOR123', 'Dc4=kjhkjh', 'lector2222@gmail.com', '2');
+INSERT INTO usuario VALUES (NULL, 'CAPIPERCY', 'Cc3,ijkij', 'capipercy@gmail.com', '2');
+INSERT INTO usuario VALUES (NULL, 'TeatroYmás', 'Bb2.uiop', 'teatroymas@gmail.com', '2');
+INSERT INTO usuario VALUES (NULL, 'ADMINISTRADOR', 'Aa1_qwer', 'adminbiblio@gmail.com', '1');
 
 /* TABLA COMENTARIO */
 INSERT INTO comentario VALUES (NULL, 'La historia de la escritora basada en sus experiencias reales da mucho que pensar. ¿Quién iba imaginar que esta historieta tuviera tanto que contar?', '4', '1');
