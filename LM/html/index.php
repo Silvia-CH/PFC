@@ -57,9 +57,6 @@ $generosExistentes = ["fantasia", "romantica", "historica", "ciencia", "juvenil"
         ?>
     </section>
     <br>
-    <section id="boton">
-        <button><strong>Ver todos los géneros</strong></button>
-    </section>
     <footer>
         <address>
             <div>
