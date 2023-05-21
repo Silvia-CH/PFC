@@ -38,7 +38,8 @@
         <main>
             <section>
                 <div class="foto">
-                    <img src="../img/persepolis.png" width="300px" height="350px">                  
+                    <img src="../img/persepolis.png" width="300px" height="350px">
+                    <p> FAVORITO</p>                  
                 </div>
                 <div class="titulo">
                     <h1>PERSÉPOLIS, Marjane Satrapi</h1>
