@@ -1,45 +1,109 @@
 html {
     align-content: center;
-    justify-content: center; 
+    justify-content: center;
     display: flex;
-    margin: 0;
     height: 100vh;
     margin: 0;
-    background-image: url("../img/libro.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-html:before {
-    content: "";
-    width: 100%;
-    min-height: 100vh;
-    position:absolute;
-    top: 0;
-    left: 0;
-    background: linear-gradient (rgba(5, 7, 12, 0.75), 
-    rgba(5, 7, 12, 0.75));
-    opacity: 0.6;
-    z-index: -1;
 }
 
-table,th,td {
+table {
+    height: max-content;
+    width: fit-content;
+    padding: 1.5vw;
+    font-weight: bold;
+}
+
+th,
+td {
     border: 1px solid rgb(2, 53, 10);
-
 }
 
 th {
     background-color: rgb(142, 122, 105);
-    color: aliceblue;
+    color: white;
+    text-transform: capitalize;
+    font-weight: bold;
     padding: 1vh;
-
 }
 
 tr:nth-child(odd) {
     background-color: rgb(154, 188, 159);
-    color: aliceblue;
+    color: rgb(78, 65, 48);
 }
 
 tr:nth-child(even) {
     background-color: antiquewhite;
+}
 
+#divCrear {
+    display: flex;
+    align-content: center;
+    width: 80vw;
+    height: fit-content;
+    margin-left: 2vw;
+}
+
+#crear {
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: antiquewhite;
+    padding: 0.5vw;
+    margin: 1vh;
+}
+
+h1{
+    text-indent: 2vw;
+}
+
+.login{
+    display: grid;
+}
+
+li {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    text-indent: 20px;
+    list-style: none;
+    font-weight: bold;
+    background-color: antiquewhite;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+
+li:hover{
+    padding-left: 10px;
+    background-color: rgb(172, 152, 126);
+}
+
+body {
+    display: grid;
+    grid-template-columns: 20% 80%;
+    margin: 0;
+    gap: 0;
+    height: 100vh;
+    width: 100vw;
+}
+
+main {
+    margin: 0;
+    grid-column: 2;
+    display: flex;
+    flex-wrap: wrap;
+    align-content:baseline;
+    height: 100%;
+    background-image: url("../img/libro.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+aside {
+    margin: 0;
+    grid-column: 1;
+    font-size: 2.5vh;
+    background-color: rgb(50, 40, 27);
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 5;
+    outline: none;
 }
