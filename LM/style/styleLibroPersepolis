@@ -113,6 +113,7 @@ li:hover {
     margin-left: 5vw;
     grid-column: 1/4;
     grid-row: 1/6;
+    margin-bottom: 2vh;
 }
 
 #titulo {
