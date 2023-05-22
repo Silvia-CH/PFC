@@ -73,10 +73,6 @@ session_start();
         }
         ?>
     </section>
-    <br>
-    <section id="boton">
-        <button><strong>Ver todos los géneros</strong></button>
-    </section>
     <footer>
         <address>
             <div>
