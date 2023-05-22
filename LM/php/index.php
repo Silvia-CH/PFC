@@ -2,7 +2,7 @@
 require_once('../db/database.php');
 $database = new Database();
 $generos = $database->getAll('genero');
-$generosExistentes = ["fantasia", "romantica", "historica", "ciencia", "juvenil", "policiaca", "arte", "psicologia", "comic"];
+$generosExistentes = ["fantasia", "romantica", "historica", "ciencia", "juvenil", "policiaca", "arte", "psicologia", "comic", "poesia", "ciencia ficcion"];
 
 session_start();
 ?>
