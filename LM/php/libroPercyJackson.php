@@ -53,7 +53,7 @@
                        revelan la verdad: Percy es nada menos que un semidiós, es decir, el hijo de un dios y una mortal. 
                        Y como tal ha de descubrir quién ha robado el rayo de Zeus y así evitar que estalle una guerra 
                        entre los dioses.</p>
-                    <p>Para saber más sobre esta novela gráfica, puedes ver la info de su
+                    <p>Para saber más sobre esta aventura, puedes ver la info de su
                     <a href="https://www.filmaffinity.com/es/film441239.html">Película</a></p>
                     <p>Añade a tu lista:</p>
                     <img class="favorito" src="../img/corazonlleno.png" width="30px" height="30px">   
