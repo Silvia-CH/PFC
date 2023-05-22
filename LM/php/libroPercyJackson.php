@@ -5,10 +5,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../style/styleLibroPercyJackson.css">
+    <link rel="stylesheet" href="../style/styleLibroPersepolis.css">
     <link rel="stylesheet" href="fontawesome/css/all.min.css">
     <link rel="icon" type="image/x-icon" href="../img/BT.ico">
-    <title>Percy Jackson</title>
+    <title>Persépolis</title>
 </head>
 
 <body>
@@ -38,23 +38,19 @@
         <main>
             <section id="main">
                 <div id="foto">
-                    <img src="../img/percyJackson.png" width="300px" height="450px">             
+                    <img src="../img/persepolis.png" width="250px" height="350px">             
                 </div>
                 <div id="titulo">
-                    <h1>PERCY JACKSON Y EL LADRÓN DEL RAYO, Rick Riordan</h1>
+                    <h1>PERSÉPOLIS, Marjane Satrapi</h1>
                 </div>
-                <div id="sinopsis">                   
-                    <p>Percy Jackson y el ladrón del rayo', 'Salamandra', '¿Qué pasaría si un día descubrieras que, 
-                       en realidad, eres hijo de un dios griego que debe cumplir una misión secreta? Pues eso es lo 
-                       que le sucede a Percy Jackson, que a partir de ese momento se dispone a vivir los acontecimientos 
-                       más emocionantes de su vida. Expulsado de seis colegios, Percy padece dislexia y dificultades 
-                       para concentrarse, o al menos ésa es la versión oficial. Objeto de burlas por inventarse historias 
-                       fantásticas, ni siquiera él mismo acaba de creérselas hasta el día que los dioses del Olimpo le 
-                       revelan la verdad: Percy es nada menos que un semidiós, es decir, el hijo de un dios y una mortal. 
-                       Y como tal ha de descubrir quién ha robado el rayo de Zeus y así evitar que estalle una guerra 
-                       entre los dioses.</p>
+                <div id="sinopsis">
+                    <p>Persépolis nos cuenta la revolución islámica iraní vista desde los ojos de una niña 
+                       que asiste atónita al cambio profundo que experimentan su país y su familia, mientras 
+                       ella debe aprender a llevar el velo. Intensamente personal y profundamente político, 
+                       el relato autobiográfico de Marjane Satrapi examina qué significa crecer en un ambiente 
+                       de guerra y represión política.</p>
                     <p>Para saber más sobre esta novela gráfica, puedes ver la info de su
-                    <a href="https://www.filmaffinity.com/es/film441239.html">Película</a></p>
+                    <a href="https://www.filmaffinity.com/es/film144674.html">Película</a></p>
                     <p>Añade a tu lista:</p>
                     <img class="favorito" src="../img/corazonlleno.png" width="30px" height="30px">   
                 </div>
