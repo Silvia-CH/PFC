@@ -116,19 +116,19 @@ li:hover {
     margin-bottom: 2vh;
 }
 
-#titulo, #sinopsis {
+#titulo {
+    grid-column: 3/6;
+    grid-row: 1/6;
+    margin-top: 2vw;
     margin-right: 5vw;
     text-align:start;
 }
 
-#titulo {
-    grid-column: 3/6;
-    grid-row: 2/2;
-}
-
 #sinopsis {
-    grid-column:4/6;
-    grid-row: 1/6;
+    grid-column:3/6;
+    grid-row: 2/6;
+    margin-right: 5vw;
+    text-align:start;
 }
 
 footer {
