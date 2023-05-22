@@ -38,7 +38,7 @@
         <main>
             <section id="main">
                 <div id="foto">
-                    <img src="../img/janeEyre.png" width="300px" height="350px">             
+                    <img src="../img/janeEyre.png" width="250px" height="350px">             
                 </div>
                 <div id="titulo">
                     <h1>JANE EYRE, Charlotte Brontë</h1>                 
@@ -49,7 +49,7 @@
                         puesto de institutriz en Thornfield Hall para educar a la hija de su atrabiliario y 
                         peculiar dueño, el señor Rochester. Poco a poco, el amor irá tejiendo su red entre ellos, 
                         pero la casa y la vida de Rochester guardan un estremecedor y terrible misterio.</p>
-                    <p>Para saber más sobre esta novela gráfica, puedes ver la info de su
+                    <p>Para saber más sobre, puedes ver la info de su
                     <a href="https://www.filmaffinity.com/es/film701281.html">Película</a></p>
                     <p>Añade a tu lista:</p>
                     <img class="favorito" src="../img/corazonlleno.png" width="30px" height="30px">   
