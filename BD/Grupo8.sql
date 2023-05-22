@@ -104,7 +104,7 @@ INSERT INTO libro VALUES (NULL, '9780714898704', 'Historia del arte', 'Phaidon',
 INSERT INTO libro VALUES (NULL, '9788412182279', 'Rimas', 'Anaya', 'Las Rimas de Bécquer es la colección poética más importante del siglo XIX. Su éxito, en gran medida, se debe a la livianidad de sus textos, alejándose así del tono recargado que caracteriza a este género.');
 
 /* INSERCION TABLA autor */
-INSERT INTO autor VALUES (NULL, 'Jane Eyre', DEFAULT);
+INSERT INTO autor VALUES (NULL, 'Charlotte Brontë', DEFAULT);
 INSERT INTO autor VALUES (NULL, 'Rick Riordan', DEFAULT);
 INSERT INTO autor VALUES (NULL, 'Julia Navarro', DEFAULT);
 INSERT INTO autor VALUES (NULL, 'Marjane Satrapi', DEFAULT);
