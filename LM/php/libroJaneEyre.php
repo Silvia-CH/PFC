@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="../style/styleLibroPersepolis.css">
     <link rel="stylesheet" href="fontawesome/css/all.min.css">
     <link rel="icon" type="image/x-icon" href="../img/BT.ico">
-    <title>Libro Persépolis</title>
+    <title>Jane Eyre</title>
 </head>
 
 <body>
