@@ -112,7 +112,7 @@ INSERT INTO autor VALUES (NULL, 'E.H. Gombrich', DEFAULT);
 INSERT INTO autor VALUES (NULL, 'A. Bécquer', DEFAULT);
 
 /* INSERCION TABLA genero */
-INSERT INTO genero VALUES (NULL, 'Extranjera', 'Narrativa');
+INSERT INTO genero VALUES (NULL, 'Poesía', 'Narrativa');
 INSERT INTO genero VALUES (NULL, 'Juvenil', 'Narrativa');
 INSERT INTO genero VALUES (NULL, 'Romantica', 'Narrativa');
 INSERT INTO genero VALUES (NULL, 'Ciencia Ficción', 'Narrativa');
