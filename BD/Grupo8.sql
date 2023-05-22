@@ -1,3 +1,4 @@
+-- DROP DATABASE pfc_libros;
 CREATE DATABASE IF NOT EXISTS pfc_libros;
 USE pfc_libros;
 
@@ -99,7 +100,7 @@ INSERT INTO libro VALUES (NULL, '9788491048961', 'Jane Eyre','Alianza', 'Dueña 
 INSERT INTO libro VALUES (NULL, '9788498386264', 'Percy Jackson y el ladrón del rayo', 'Salamandra', '¿Qué pasaría si un día descubrieras que, en realidad, eres hijo de un dios griego que debe cumplir una misión secreta? Pues eso es lo que le sucede a Percy Jackson, que a partir de ese momento se dispone a vivir los acontecimientos más emocionantes de su vida. Expulsado de seis colegios, Percy padece dislexia y dificultades para concentrarse, o al menos ésa es la versión oficial. Objeto de burlas por inventarse historias fantásticas, ni siquiera él mismo acaba de creérselas hasta el día que los dioses del Olimpo le revelan la verdad: Percy es nada menos que un semidiós, es decir, el hijo de un dios y una mortal. Y como tal ha de descubrir quién ha robado el rayo de Zeus y así evitar que estalle una guerra entre los dioses.');
 INSERT INTO libro VALUES (NULL, '9788401337550', 'Dime quién soy', 'Plaza & Janes', 'Un periodista investiga la apasionante vida de una antepasada suya, una mujer que vivió intensamente el siglo XX desde los convulsos años de la república hasta la caída del muro de Berlín.');
 INSERT INTO libro VALUES (NULL, '9788417910143', 'Persépolis', 'Reservoir Books', 'Persépolis nos cuenta la revolución islámica iraní vista desde los ojos de una niña que asiste atónita al cambio profundo que experimentan su país y su familia, mientras ella debe aprender a llevar el velo. Intensamente personal y profundamente político, el relato autobiográfico de Marjane Satrapi examina qué significa crecer en un ambiente de guerra y represión política.');
-INSERT INTO libro VALUES (NULL, '9788491073352', 'Pupi y Pompita, superhéroes', 'SM', 'El mago Pinchón tiene un malvado plan: ¡hacer que la Tierra gire a velocidad supersónica! ¡Qué miedo! ¡Qué desastre! ¡Qué mareo!');
+INSERT INTO libro VALUES (NULL, '9780714898704', 'Historia del arte', 'Phaidon', 'Es uno de los libros dedicados al arte más famosos y populares nunca escritos y ha sido un best-seller durante medio siglo. Durante cinco décadas no ha tenido ningún rival como introducción al arte en su totalidad, abarcando desde las pinturas rupestres primitivas hasta el arte experimental contemporáneo.');
 INSERT INTO libro VALUES (NULL, '9788412182279', 'Rimas(1871)', 'Anaya', 'Las Rimas de Bécquer es la colección poética más importante del siglo XIX. Su éxito, en gran medida, se debe a la livianidad de sus textos, alejándose así del tono recargado que caracteriza a este género.');
 
 /* INSERCION TABLA autor */
@@ -107,37 +108,31 @@ INSERT INTO autor VALUES (NULL, 'Jane Eyre', DEFAULT);
 INSERT INTO autor VALUES (NULL, 'Rick Riordan', DEFAULT);
 INSERT INTO autor VALUES (NULL, 'Julia Navarro', DEFAULT);
 INSERT INTO autor VALUES (NULL, 'Marjane Satrapi', DEFAULT);
-INSERT INTO autor VALUES (NULL, 'Maria Andrada Guerrero', DEFAULT);
+INSERT INTO autor VALUES (NULL, 'E.H. Gombrich', DEFAULT);
+INSERT INTO autor VALUES (NULL, 'A. Bécquer', DEFAULT);
 
 /* INSERCION TABLA genero */
 INSERT INTO genero VALUES (NULL, 'Extranjera', 'Narrativa');
-INSERT INTO genero VALUES (NULL, 'Española e hispanoamericana', 'Narrativa');
 INSERT INTO genero VALUES (NULL, 'Juvenil', 'Narrativa');
 INSERT INTO genero VALUES (NULL, 'Romantica', 'Narrativa');
 INSERT INTO genero VALUES (NULL, 'Ciencia Ficción', 'Narrativa');
 INSERT INTO genero VALUES (NULL, 'Fantasia', 'Narrativa');
 INSERT INTO genero VALUES (NULL, 'Policiaca', 'Narrativa');
 INSERT INTO genero VALUES (NULL, 'Histórica', 'Narrativa');
-INSERT INTO genero VALUES (NULL, 'Historia', 'Ensayo');
 INSERT INTO genero VALUES (NULL, 'Ciencia', 'Ensayo');
 INSERT INTO genero VALUES (NULL, 'Psicología', 'Ensayo');
-INSERT INTO genero VALUES (NULL, 'Política', 'Ensayo');
-INSERT INTO genero VALUES (NULL, 'Autoayuda', 'Ensayo');
 INSERT INTO genero VALUES (NULL, 'Arte', 'Ensayo');
-INSERT INTO genero VALUES (NULL, 'Espiritualidad y Religión', 'Ensayo');
-INSERT INTO genero VALUES (NULL, 'Novela Gráfica', 'Cómic');
 INSERT INTO genero VALUES (NULL, 'Cómic', 'Cómic');
-INSERT INTO genero VALUES (NULL, 'Manga', 'Cómic');
-INSERT INTO genero VALUES (NULL, 'De 0 a 6 años', 'Infantil');
-INSERT INTO genero VALUES (NULL, 'De 6 a 8 años', 'Infantil');
-INSERT INTO genero VALUES (NULL, 'De 8 a 12 años', 'Infantil');
+
+
 
 /* TABLA DE contenido multimedia*/
 INSERT INTO contenido_multimedia VALUES (NULL, 'Jane Eyre (2011)', 'Película', '1');
 INSERT INTO contenido_multimedia VALUES (NULL, 'Percy Jackson y el ladrón del rayo (2010)', 'Película', '2');
 INSERT INTO contenido_multimedia VALUES (NULL, 'Dime quién soy (2020)', 'Miniserie', '3');
 INSERT INTO contenido_multimedia VALUES (NULL, 'Persépolis (2007)', 'Película', '4');
-INSERT INTO contenido_multimedia VALUES (NULL, 'Conecta con Pupi', 'Youtube', '5');
+INSERT INTO contenido_multimedia VALUES (NULL, 'Historia del arte, Gombrich', 'Youtube', '5');
+INSERT INTO contenido_multimedia VALUES (NULL, 'Bécquer y las brujas (2019)', 'Película', '6');
 
 /* TABLA FORO */
 INSERT INTO foro VALUES (NULL, '1');
@@ -170,13 +165,14 @@ INSERT INTO autor_has_libro VALUES ('2','2');
 INSERT INTO autor_has_libro VALUES ('3','3');
 INSERT INTO autor_has_libro VALUES ('4','4');
 INSERT INTO autor_has_libro VALUES ('5','5');
+INSERT INTO autor_has_libro VALUES ('6','6');
 
 /* TABLA libro_HAS_genero*/
-INSERT INTO libro_has_genero VALUES ('1', '1');
-INSERT INTO libro_has_genero VALUES ('2', '3');
-INSERT INTO libro_has_genero VALUES ('3', '8');
-INSERT INTO libro_has_genero VALUES ('4', '16');
-INSERT INTO libro_has_genero VALUES ('1', '20');
+INSERT INTO libro_has_genero VALUES ('1', '3');
+INSERT INTO libro_has_genero VALUES ('2', '2');
+INSERT INTO libro_has_genero VALUES ('3', '7');
+INSERT INTO libro_has_genero VALUES ('4', '11');
+INSERT INTO libro_has_genero VALUES ('1', '10');
 
 /* TABLA usuario_HAS_libros*/
 INSERT INTO usuario_has_libro VALUES ('1', '1');
