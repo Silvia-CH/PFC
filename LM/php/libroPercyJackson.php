@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="../style/styleLibroPercyJackson.css">
     <link rel="stylesheet" href="fontawesome/css/all.min.css">
     <link rel="icon" type="image/x-icon" href="../img/BT.ico">
-    <title>Percy Jackson y el Ladrón del Rayo</title>
+    <title>Percy Jackson</title>
 </head>
 
 <body>
@@ -41,7 +41,7 @@
                     <img src="../img/percyJackson.png" width="300px" height="450px">             
                 </div>
                 <div id="titulo">
-                    <h1>PERCY JACKSON Y EL LADRÓN DEL RAYO Rick Riordan</h1>
+                    <h1>PERCY JACKSON Y EL LADRÓN DEL RAYO, Rick Riordan</h1>
                 </div>
                 <div id="sinopsis">                   
                     <p>Percy Jackson y el ladrón del rayo', 'Salamandra', '¿Qué pasaría si un día descubrieras que, 
