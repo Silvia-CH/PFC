@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="../style/styleLibroPersepolis.css">
     <link rel="stylesheet" href="fontawesome/css/all.min.css">
     <link rel="icon" type="image/x-icon" href="../img/BT.ico">
-    <title>Foro</title>
+    <title>Libro Persépolis</title>
 </head>
 
 <body>
@@ -29,23 +29,30 @@
             <a href="foro.php">
                 <li>Foro</li>
             </a>
-            <a href="..\auth\login.php">
+            <a href="login.php">
                 <li class="usuario"><i class="fas fa-user"></i> Iniciar Sesión</li>
             </a>
         </ul>
     </nav>
-    <div class="mainNaside">
+    <div>
         <main>
-            <section>
-                <div class="foto">
-                    <img src="../img/persepolis.png" width="300px" height="350px">
-                    <p> FAVORITO</p>                  
+            <section id="main">
+                <div id="foto">
+                    <img src="../img/persepolis.png" width="300px" height="350px">             
                 </div>
-                <div class="titulo">
-                    <h1>PERSÉPOLIS, Marjane Satrapi</h1>
+                <div id="titulo">
+                    <h1>PERSÉPOLIS Marjane Satrapi</h1>
                 </div>
-                <div class="sinopsis">
-                    <p>Persépolis nos cuenta la revolución islámica iraní vista desde los ojos de una niña que asiste atónita al cambio profundo que experimentan su país y su familia, mientras ella debe aprender a llevar el velo. Intensamente personal y profundamente político, el relato autobiográfico de Marjane Satrapi examina qué significa crecer en un ambiente de guerra y represión política.</p>
+                <div id="sinopsis">
+                    <p>Persépolis nos cuenta la revolución islámica iraní vista desde los ojos de una niña 
+                       que asiste atónita al cambio profundo que experimentan su país y su familia, mientras 
+                       ella debe aprender a llevar el velo. Intensamente personal y profundamente político, 
+                       el relato autobiográfico de Marjane Satrapi examina qué significa crecer en un ambiente 
+                       de guerra y represión política.</p>
+                    <p>Para saber más sobre esta novela gráfica, puedes ver la info de su
+                    <a href="https://www.filmaffinity.com/es/film144674.html">Película</a></p>
+                    <p>Añade a tu lista:</p>
+                    <img class="favorito" src="../img/corazonlleno.png" width="30px" height="30px">   
                 </div>
             </section>
         </main>
