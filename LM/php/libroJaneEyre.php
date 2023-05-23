@@ -57,7 +57,7 @@ session_start();
         <main>
             <section id="main">
                 <div id="foto">
-                    <img src="../img/janeEyre.png" width="250px" height="350px">             
+                    <img src="../img/jane_eyre.png" width="250px" height="350px">             
                 </div>
                 <div id="titulo">
                     <h1>JANE EYRE, Charlotte Brontë</h1>                 
@@ -71,7 +71,7 @@ session_start();
                     <p>Para saber más sobre esta apasionante historia, puedes ver la info de su
                     <a href="https://www.filmaffinity.com/es/film701281.html">Película</a></p>
                     <p>Añade a tu lista:</p>
-                    <img class="favorito" src="../img/corazonvacio.png" width="30px" height="30px">   
+                    <img class="favorito" src="../img/corazon_vacio.png" width="30px" height="30px">   
                 </div>
             </section>
         </main>
