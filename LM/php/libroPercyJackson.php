@@ -56,7 +56,7 @@
                     <p>Para saber más sobre esta aventura, puedes ver la info de su
                     <a href="https://www.filmaffinity.com/es/film441239.html">Película</a></p>
                     <p>Añade a tu lista:</p>
-                    <img class="favorito" src="../img/corazonlleno.png" width="30px" height="30px">   
+                    <img class="favorito" src="../img/corazonvacio.png" width="30px" height="30px">   
                 </div>
             </section>
         </main>
