@@ -38,10 +38,10 @@
         <main>
             <section id="main">
                 <div id="foto">
-                    <img src="../img/persepolis.png" width="300px" height="350px">             
+                    <img src="../img/persepolis.png" width="250px" height="350px">             
                 </div>
                 <div id="titulo">
-                    <h1>PERSÉPOLIS Marjane Satrapi</h1>
+                    <h1>PERSÉPOLIS, Marjane Satrapi</h1>
                 </div>
                 <div id="sinopsis">
                     <p>Persépolis nos cuenta la revolución islámica iraní vista desde los ojos de una niña 
@@ -52,7 +52,7 @@
                     <p>Para saber más sobre esta novela gráfica, puedes ver la info de su
                     <a href="https://www.filmaffinity.com/es/film144674.html">Película</a></p>
                     <p>Añade a tu lista:</p>
-                    <img class="favorito" src="../img/corazonlleno.png" width="30px" height="30px">   
+                    <img class="favorito" src="../img/corazonvacio.png" width="30px" height="30px">   
                 </div>
             </section>
         </main>
