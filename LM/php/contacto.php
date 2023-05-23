@@ -1,3 +1,7 @@
+<?php
+session_start();
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -29,9 +33,24 @@
             <a href="foro.php">
                 <li>Foro</li>
             </a>
-            <a href="../auth/login.php">
-                <li class="usuario"><i class="fas fa-user"></i> Iniciar Sesión</li>
-            </a>
+            <?php
+            if (isset($_SESSION['usuario'])) {
+                echo '<div class="user-profile">
+                <li class="usuario" id="dropdownMenuLink">', $_SESSION['usuario']['nick'], '</li>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                <a class="dropdown-item" href="#"><i class="fas fa-user"></i> Ver perfil</a>
+                <a class="dropdown-item" href="#"><i class="fas fa-cog"></i> Ajustes</a>';
+                if ($_SESSION['usuario']['rol_id'] == 1) {
+                    echo '<a class="dropdown-item" href="../private/index.php?tabla=bienvenido"><i class="fas fa-tools"></i></i> CRUD</a>';
+                }
+                echo '<a class="dropdown-item" href="../auth/logout.php"><i class="fas fa-sign-out-alt"></i> Cerrar sesión</a>
+                </div>
+                </div>';
+            } else {
+                echo '<a href="../auth/login.php">
+                <li class="usuario"><i class="fas fa-user"></i> Iniciar Sesión</li></a>';
+            }
+            ?>
         </ul>
     </nav>
 
