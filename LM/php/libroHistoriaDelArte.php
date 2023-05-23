@@ -38,7 +38,7 @@
         <main>
             <section id="main">
                 <div id="foto">
-                    <img src="../img/historiaArte.png" width="230px" height="350px">             
+                    <img src="../img/historiaArte.png" width="260px" height="350px">             
                 </div>
                 <div id="titulo">
                     <h1>HISTORIA DEL ARTE, E.H Gombrich</h1>
@@ -51,7 +51,7 @@
                     <p>Si quieres ver un resumen de la historia del arte rápido y entretenido, visualiza este
                     <a href="https://www.youtube.com/watch?v=rUHxLrZwSIY">Video</a></p>
                     <p>Añade a tu lista:</p>
-                    <img class="favorito" src="../img/corazonlleno.png" width="30px" height="30px">   
+                    <img class="favorito" src="../img/corazonvacio.png" width="30px" height="30px">   
                 </div>
             </section>
         </main>
