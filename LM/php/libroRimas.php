@@ -47,10 +47,10 @@
                     <p>Las Rimas de Bécquer es la colección poética más importante del siglo XIX. Su éxito, 
                        en gran medida, se debe a la livianidad de sus textos, alejándose así del tono recargado 
                        que caracteriza a este género.</p>                 
-                    <p>Si quieres saber más, visualiza este
+                    <p>Si quieres saber más, aquí tienes info sobre su
                     <a href="https://www.filmaffinity.com/es/film715263.html">Documental</a></p>
                     <p>Añade a tu lista:</p>
-                    <img class="favorito" src="../img/corazonlleno.png" width="30px" height="30px">   
+                    <img class="favorito" src="../img/corazonvacio.png" width="30px" height="30px">   
                 </div>
             </section>
         </main>
