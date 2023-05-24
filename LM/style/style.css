@@ -2,8 +2,8 @@ html {
     font-family: Arial, Helvetica, sans-serif;
     font-size: medium;
     scroll-behavior: smooth;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-weight: 400;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: antiquewhite;
 }
 
 body {
@@ -16,6 +16,7 @@ body {
     background-position: center center;
 }
 
+/*--------------------------NAVEGADOR----------------------------------*/
 .navegador {
     list-style: none;
     display: inline-block;
@@ -23,7 +24,7 @@ body {
     margin-left: 3px;
     margin-right: 3px;
     background-color: antiquewhite;
-} 
+}
 
 nav {
     display: flex;
@@ -60,7 +61,7 @@ a {
     color: azure;
 }
 
-#icono{
+#icono {
     height: 11vh;
     margin-right: 1vw;
 }
@@ -207,10 +208,43 @@ button {
 
 button:hover {
     background-color: rgb(144, 127, 103);
+    cursor: pointer;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    height: 100%;
+    min-height: 50vh;
+    align-content: center;
+    justify-content: center;
+    background-image: url("../img/libro.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 5vh;
+    margin-bottom: 20vh;
+}
+
+.libroImg {
+    height: 55vh;
+    width: 20vw;
+    margin: 3vh;
+}
+
+.libroImg:hover {
+    height: 55.5vh;
+    width: 20.5vw;
+    filter: grayscale(50%);
+    box-shadow: 10px 10px 5px rgb(97, 72, 42);
+    transition-duration: 0.1s;
+    transition-timing-function: ease-in;
 }
 
 footer {
-    margin-top: 2%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
     background-color: rgb(76, 69, 49);
     color: antiquewhite;
 }
@@ -238,9 +272,48 @@ footer a:hover {
     color: rgb(183, 130, 51);
 }
 
+
+
 div.redes {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
     gap: 1vw;
+}
+
+.user-profile {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    background-color: rgb(58, 43, 25);
+    min-width: 15vw;
+    z-index: 1;
+    right: 0;
+    top: 100%;
+}
+
+.dropdown-menu a {
+    color: #fff;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    padding: 8px 16px;
+}
+
+.dropdown-menu a i {
+    margin-right: 8px;
+}
+
+.user-profile:hover .dropdown-menu {
+    display: block;
+}
+
+.dropdown-item:hover {
+    color: rgb(216, 202, 182);
+    background-color: rgb(43, 36, 27);
 }
