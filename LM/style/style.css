@@ -129,7 +129,7 @@ li:hover {
 }
 
 .fantasia, .romantica, .historica, .juvenil, 
-.ciencia, .policiaca, .arte, .psicologia, .comic {
+.ciencia, .policiaca, .arte, .psicologia, .comic, .poesia, .ciencia_ficcion {
     margin: 40px 40px;
     height: 10vw;
     width: 10vw;   
@@ -151,7 +151,7 @@ li:hover {
 
 .historica {
     color: white;
-    background-image: url("../img/historica.jpeg");
+    background-image: url("../img/historica.jpg");
 }
 
 .juvenil {
@@ -164,6 +164,10 @@ li:hover {
     background-image: url("../img/ciencia.jpg");
 }
 
+.ciencia_ficcion {
+    color: white;
+    background-image: url("../img/ciencia_ficcion.png");
+}
 .policiaca {
     color: white;
     background-image: url("../img/policiaca.jpg");
@@ -177,6 +181,11 @@ li:hover {
 .psicologia {
     color: black;
     background-image: url("../img/psicologia.png");
+}
+
+.poesia {
+    color: white;
+    background-image: url("../img/poesia.png");
 }
 
 .comic {
