@@ -73,6 +73,26 @@ session_start();
         }
         ?>
     </section>
+    <div id="libros"> 
+        <a href="libroDimeQuienSoy.html">    
+            <img class="libroImg" src="../img/dime_quien_soy.png" width="200px" height="300px">  
+        </a>
+        <a href="libroHistoriaDelArte.html">                  
+            <img class="libroImg" src="../img/historia_del_arte.png" width="200px" height="300px">   
+        </a>
+        <a href="libroJaneEyre.html">           
+            <img class="libroImg" src="../img/jane_eyre.png" width="200px" height="300px">      
+        </a>
+        <a href="libroPercyJackson.html">          
+            <img class="libroImg" src="../img/percy_jackson_libro.png" width="200px" height="300px"> 
+        </a>  
+        <a href="libroPersepolis.html">         
+            <img class="libroImg" src="../img/persepolis.png" width="200px" height="300px">   
+        </a>
+        <a href="libroRimas.html">           
+            <img class="libroImg" src="../img/rimas.png" width="200px" height="300px">     
+        </a>      
+    </div>
     <footer>
         <address>
             <div>
