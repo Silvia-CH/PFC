@@ -2,7 +2,7 @@ html {
     font-family: Arial, Helvetica, sans-serif;
     font-size: medium;
     scroll-behavior: smooth;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 body {
@@ -52,12 +52,12 @@ li {
     font-size: large;
 }
 
-a{
+a {
     align-self: center;
     text-decoration: none;
 }
 
-#icono{
+#icono {
     height: 11vh;
     margin-right: 1vw;
     width: auto;
@@ -114,6 +114,25 @@ main {
     background-image: url(../img/textura.jpg);
 }
 
+form {
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+input {
+    height: 4vh;
+    background-color: rgb(255, 248, 239);
+    border-radius: 5px;
+}
+
+button {
+    height: 5vh;
+    width: 10vw;
+    background-color: greenyellow;
+    border-radius: 10px;
+}
+
 header {
     display: flex;
     flex-direction: column;
@@ -138,11 +157,12 @@ form input:required {
     border-radius: 0%;
     border: solid rgb(179, 179, 179);
 }
-form label span{
+
+form label span {
     color: red;
 }
 
-textarea{
+textarea {
     height: 20vh;
     width: 25vw;
     font-family: Arial, Helvetica, sans-serif;
@@ -152,6 +172,11 @@ textarea{
 
 label#checkmark {
     font-size: small;
+    vertical-align: middle;
+}
+
+#checkmark {
+    display: flex;
 }
 
 section {
@@ -177,32 +202,32 @@ aside {
     background-color: rgb(255, 241, 223);
 }
 
-p#novedades{
+p#novedades {
     font-size: x-large;
 }
 
-aside article :first-child{
+aside article :first-child {
     text-align: left;
     font-size: large;
     font-weight: 700;
 }
 
-aside article{
+aside article {
     display: flex;
     flex-direction: column;
     align-items: center;
     border-top: 1px solid rgb(76, 69, 49);
 }
 
-aside a{
+aside a {
     color: rgb(76, 69, 49);
 }
 
-aside a:hover{
+aside a:hover {
     color: rgb(183, 130, 51);
 }
 
-img{
+img {
     width: 18vw;
     height: auto;
 }
@@ -220,25 +245,62 @@ address {
     padding: 2vh;
 }
 
-address div{
+address div {
     width: 40vw;
 }
 
-address div :first-child{
+address div :first-child {
     font-size: large;
 }
 
-footer a{
+footer a {
     color: antiquewhite;
 }
 
-footer a:hover{
+footer a:hover {
     color: rgb(183, 130, 51);
 }
 
-div.redes{
+div.redes {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
     gap: 1vw;
+}
+
+.user-profile {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    background-color: rgb(58, 43, 25);
+    min-width: 15vw;
+    z-index: 1;
+    right: 0;
+    top: 100%;
+}
+
+.dropdown-menu a {
+    color: #fff;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    padding: 8px 16px;
+}
+
+.dropdown-menu a i {
+    margin-right: 8px;
+}
+
+.user-profile:hover .dropdown-menu {
+    display: block;
+}
+
+.dropdown-item:hover {
+    color: rgb(216, 202, 182);
+    background-color: rgb(43, 36, 27);
 }

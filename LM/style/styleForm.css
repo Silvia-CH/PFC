@@ -1,0 +1,49 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  height: 95vh;
+  flex-wrap: wrap;
+  background-image: url("../img/fondo.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+div{
+  display: flex;
+  justify-content: center;
+  width: 100vw;
+}
+
+form {
+  display: flex;
+  flex-wrap: wrap;
+  
+  height: 60vh;
+  width: 38vw;
+  
+  padding-top: 5vh;
+  justify-content: center;
+  background-image: url("../img/textura.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: 3px solid black;
+}
+
+input {
+  height: 4vh;
+  width: 30vw;
+  background-color: rgb(255, 248, 239);
+  border-radius: 5px;
+}
+
+button{
+  height: 5vh;
+  width: 10vw;
+  background-color: greenyellow;
+  border-radius: 10px;
+}
+
+h1{
+  text-align: center;
+}
