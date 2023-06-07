@@ -37,7 +37,7 @@ if ($form == 0) {
     // si se está intentando registrarse
 } elseif ($form == 1) {
     $nick = $_POST['nick'];
-    $respuesta = $database->existeUser($nick, $contraseña);
+    $respuesta = $database->existeUser($nick, $email);
 
     if ($respuesta != null) {
         header('Location: login.php');
