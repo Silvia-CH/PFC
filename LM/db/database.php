@@ -146,8 +146,9 @@ class Database
         }
     }
 
-    public function existeUser($nick, $email){
-        $sql = "SELECT * FROM usuario WHERE nick= '$nick' OR email = '$email';";
+    public function existeUser($nick, $email)
+    {
+        $sql = "SELECT * FROM 18_usuario WHERE nick= '$nick' OR email = '$email';";
         $resultados = self::conectar()->query($sql);
         return $resultados->fetch(PDO::FETCH_ASSOC);
     }
