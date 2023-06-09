@@ -1,4 +1,4 @@
-DROP DATABASE IF EXISTS pfc_libros;
+DROP DATABASE pfc_libros;
 CREATE DATABASE IF NOT EXISTS pfc_libros;
 USE pfc_libros;
 
@@ -113,8 +113,6 @@ INSERT INTO 18_autor VALUES (NULL, 'A. Bécquer', DEFAULT);
 
 /* INSERCION TABLA genero */
 INSERT INTO 18_genero VALUES (NULL, 'Poesía', 'Narrativa');
-INSERT INTO 18_genero VALUES (NULL, 'Extranjera', 'Narrativa');
-INSERT INTO 18_genero VALUES (NULL, 'Española e hispanoamericana', 'Narrativa');
 INSERT INTO 18_genero VALUES (NULL, 'Juvenil', 'Narrativa');
 INSERT INTO 18_genero VALUES (NULL, 'Romantica', 'Narrativa');
 INSERT INTO 18_genero VALUES (NULL, 'Ciencia Ficción', 'Narrativa');
